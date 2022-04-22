@@ -1,0 +1,4 @@
+Chave SSH:
+	.O que é/O que faz:
+		1.É uma forma de estabelcer um conexão segura e encriptada entre duas maquinas
+		

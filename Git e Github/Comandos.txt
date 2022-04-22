@@ -1,0 +1,5 @@
+Ls:Listar Pastas
+Ls -a :Lista os arquivos ocultos		
+Cd:Mudar de Pastas
+mkdir:Criar pastas
+rmdir:deletar pastas

@@ -1,0 +1,20 @@
+Blobs:
+	.O que é :
+		1.Bloco base de composição
+		2.Contém metadados do git(tipo de objeto,tamanho da string,tamanho do arquivo,etc)
+	.comandos:
+		1. echo 'conteudo' | git hash-object --stdin
+		2. echo -e 'blob 9\0conteudo' | openssl sha1
+
+Tree:
+	.O que é/O que faz :
+		1.Armazena e aponta para tipo de blobs diferentes
+		2.Guarda o nome do arquivo também
+
+Commit:
+	.O que é/O que faz :
+		1.Aponta uma Tree,parente(ultimo commit realizado antes dele),autor,mensagem.
+		2.
+
+
+

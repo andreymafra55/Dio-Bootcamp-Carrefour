@@ -1,0 +1,8 @@
+git init:Inicia um repositorio
+
+git add *
+
+git commit
+git commit-m :Passa uma mensagem
+
+git status 
