@@ -1,0 +1,70 @@
+<!--Colspan:Numero de colunas que o dado vai ocupar-->
+
+<!--Rowspan:Numero de linhas que o dado vai ocupar-->
+
+<style>
+    table {
+        border-collapse: collapse;
+    }
+
+    th,td {
+        padding:10px
+    }
+
+    thead tr{
+        border-bottom: 3px solid #444
+    }
+    
+    tbody tr:hover{
+        background-color:#dedede;
+    }
+    tfoot{
+        background-color: #444;
+        color: #fff;
+        font-weight:bold;
+    }
+</style>
+
+<table >
+    <caption>Produtos</caption>
+    <thead>
+        <tr>
+            <th>Produto</th>
+            <th>Preço</th>
+            <th>Quantidade</th>
+            <th>Cor</th>
+        
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Ipad</td>
+            <td>3500,00</td>
+            <td>10</td>
+            <td>Prata</td>
+        </tr>
+
+        <tr>
+            <td>Ps4</td>
+            <td>4000,00</td>
+            <td>8</td>
+            <td>Preto</td>
+        </tr>
+        
+        <tr>
+            <td>Notebook</td>
+            <td>5500,00</td>
+            <td>5</td>
+            <td>Branco</td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td colspan="3">Total:</td>
+            <td >13000,00</td>   
+        </tr>
+    </tfoot>
+</table>
+

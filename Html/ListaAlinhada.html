@@ -1,0 +1,50 @@
+<h1>Projeto</h1>
+
+<ul class="tree">
+    <li>
+        <span wm-folder>Backend</span> 
+        <ul>
+            <li>   
+                <span wm-folder>App</span>
+                <ul>
+                    <li>Produto.js</li>
+                    <li>Usuario.js</li>
+                    <li>Venda.js</li>
+                </ul>
+            </li>
+            <li>
+                <span wm-folder>Config</span>
+                <ul>
+                    <li>Bancos.js</li>
+                    <li>Rotas.js</li>
+                    <li>Servidor.js</li>                    
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <span wm-folder>Frontend</span>
+        <ul>
+            <li>
+                <span wm-folder>Public</span>
+                <ul>
+                    <li>App.css</li>
+                    <li>App.js</li>
+                    <li>Index.html</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+
+<link rel="stylesheet" href="http://files.cod3r.com.br/curso-web/tree.css">
+
+<script>
+    document.querySelectorAll('[wm-folder]').forEach(folder => {
+        folder.onclick = (e) =>{
+            const ul = folder.nextElementSibling // Pega o Elemento Posterior da Pasta Marcada no span
+            const d = ul.style.display //A partir da const ul ele pega o display(visibilidade)
+            ul.style.display = d === 'none' ? 'block' : 'none' // Alterna a visibilidade do entre block e none para ele mostrar e esconder
+        }
+    })
+</script>
